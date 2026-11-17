@@ -1,4 +1,4 @@
-"""VeriPact AI — free, MIT-licensed localhost attorney review workspace."""
+"""ClauseLantern — free, MIT-licensed localhost attorney review workspace."""
 from __future__ import annotations
 
 import os
@@ -130,20 +130,20 @@ def render_result(result):
     if "report" not in st.session_state:
         st.session_state.report = build_report(result).getvalue()
     prefix = "INCOMPLETE_" if not result.complete else ""
-    st.download_button("Download executive Word report", data=st.session_state.report, file_name=prefix + Path(result.file_name).stem + "_VeriPact_Review.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document", type="primary")
+    st.download_button("Download executive Word report", data=st.session_state.report, file_name=prefix + Path(result.file_name).stem + "_ClauseLantern_Review.docx", mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document", type="primary")
 
 
 def main():
-    st.set_page_config(page_title="VeriPact AI | Contract Auditor", page_icon="⚖️", layout="wide")
+    st.set_page_config(page_title="ClauseLantern | Contract Auditor", page_icon="⚖️", layout="wide")
     st.markdown(CSS, unsafe_allow_html=True)
     banner = "CONNECTED MODEL SETUP · Contract review is disabled" if st.session_state.get("setup_mode") else "🔒 100% AIR-GAPPED &amp; ZERO-RETENTION: Local Execution Only. Client Data Never Leaves This Hardware."
     st.markdown(f'<div class="security">{banner}</div>', unsafe_allow_html=True)
-    st.markdown('<div class="hero"><div><div class="eyebrow">THE PRIVATE CONTRACT REVIEW WORKSPACE</div><h1>VeriPact AI<span style="color:#D97706">.</span></h1><p>Air-Gapped Contract Auditor</p></div><span class="badge">LOCAL EXECUTION · ATTORNEY LED</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="hero"><div><div class="eyebrow">THE PRIVATE CONTRACT REVIEW WORKSPACE</div><h1>ClauseLantern<span style="color:#D97706">.</span></h1><p>Air-Gapped Contract Auditor</p></div><span class="badge">LOCAL EXECUTION · ATTORNEY LED</span></div>', unsafe_allow_html=True)
     st.caption("Document content stays in session memory. Audit metadata is retained locally; downloaded reports are saved by you. A true air gap requires network isolation of this hardware.")
 
     profile = hardware_profile()
     with st.sidebar:
-        st.markdown('<div class="wordmark">VeriPact<span class="gold"> AI</span></div>', unsafe_allow_html=True)
+        st.markdown('<div class="wordmark">Clause<span class="gold">Lantern</span></div>', unsafe_allow_html=True)
         st.caption("COUNSEL'S WORKSPACE")
         st.divider()
         st.caption("FREE & OPEN SOURCE · MIT LICENSE")

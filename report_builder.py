@@ -94,7 +94,7 @@ def build_report(result: AuditResult) -> io.BytesIO:
     doc.styles["Title"].font.size = Pt(27)
     doc.styles["Heading 1"].font.size = Pt(15)
     header = section.header.paragraphs[0]
-    header.text = "VERIPACT AI  |  PRIVILEGED REVIEW WORKSPACE"
+    header.text = "CLAUSELANTERN  |  CONTRACT REVIEW WORKSPACE"
     header.runs[0].font.size = Pt(8)
     footer = section.footer.paragraphs[0]
     footer.text = "Attorney review required  •  Local execution  |  Page "

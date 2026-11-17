@@ -1,4 +1,8 @@
-# VeriPact AI
+# ClauseLantern
+
+[Инструкция на русском](README.ru.md)
+
+Formerly VeriPact AI. [Try the sample NDA](sample_test_nda.txt) · [See the demo walkthrough](DEMO.md) · [Report pilot feedback](https://github.com/amirlan-burkitbayev/VeriPactAI/issues/new?template=pilot.yml)
 
 ### Air-Gapped Contract Auditor
 
@@ -8,7 +12,7 @@
 [![100% Air-Gapped](https://img.shields.io/badge/Air--Gapped-100%25-0F172A)](#privacy-and-air-gapped-operation)
 [![MIT License](https://img.shields.io/badge/License-MIT-D97706)](LICENSE)
 
-**An open-source contract review workspace that keeps client documents on your hardware.** VeriPact AI helps attorneys identify playbook deviations, inspect the language behind each finding, and prepare an executive Word report using local Ollama inference.
+**An open-source contract review workspace that keeps client documents on your hardware.** ClauseLantern helps attorneys identify playbook deviations, inspect the language behind each finding, and prepare an executive Word report using local Ollama inference.
 
 The full application is free under the **MIT License**. No account, subscription, activation key or trial is required. Install the dependencies and a local model, then launch the auditor.
 
@@ -104,7 +108,7 @@ In a **second terminal**, download the recommended starting model while connecte
 ollama pull qwen3:4b
 ```
 
-A pre-existing service must be restarted with the new environment; setting it in VeriPact cannot reconfigure a running daemon. See [Ollama's local configuration guide](https://docs.ollama.com/faq#how-do-i-disable-ollamas-cloud-features).
+A pre-existing service must be restarted with the new environment. See [Ollama's local configuration guide](https://docs.ollama.com/faq#how-do-i-disable-ollamas-cloud-features).
 
 ### 3. Launch the free auditor
 
@@ -194,8 +198,8 @@ Contributions are welcome. Include a focused regression test for behavior change
 
 ## License
 
-VeriPact AI is released under the [MIT License](LICENSE), copyright 2026 VeriPact AI contributors. Third-party libraries and model weights retain their respective licenses.
+ClauseLantern is released under the [MIT License](LICENSE). Third-party libraries and model weights retain their respective licenses.
 
 ## Legal Disclaimer
 
-Disclaimer: VeriPact AI is an AI-assisted document extraction and review utility for licensed attorneys. It does not constitute legal advice. All outputs must be independently verified by counsel.
+Disclaimer: ClauseLantern is an AI-assisted document extraction and review utility for licensed attorneys. It does not constitute legal advice. All outputs must be independently verified by counsel.

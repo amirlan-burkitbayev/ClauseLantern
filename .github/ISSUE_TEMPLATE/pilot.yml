@@ -1,0 +1,20 @@
+name: Pilot feedback
+description: Share a sample NDA review or a first-run problem.
+body:
+  - type: markdown
+    attributes:
+      value: Use the bundled fictional NDA. Do not post private contracts or client details.
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Which OS, model, available RAM, and installation steps did you use?
+    validations:
+      required: true
+  - type: textarea
+    id: findings
+    attributes:
+      label: Results
+      description: How long did setup and review take? Which expected issues were found or missed? Were the quotes useful? What would make you try it again?
+    validations:
+      required: true
