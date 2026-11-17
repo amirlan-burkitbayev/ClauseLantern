@@ -1,0 +1,44 @@
+[Page 1]
+MUTUAL NONDISCLOSURE AGREEMENT
+
+This Mutual Nondisclosure Agreement is effective November 1, 2026, between Northstar Analytics LLC, a Delaware limited liability company with offices in Minneapolis, Minnesota, and Cedar Ridge Systems Inc., a Texas corporation with offices in Austin, Texas. Each is a Party and together they are the Parties.
+
+1. Purpose and exchange
+The Parties wish to evaluate a potential commercial software integration (the "Purpose"). Either Party may disclose nonpublic information to the other solely for the Purpose. No purchase, exclusivity or transfer of intellectual property is required by this Agreement.
+
+2. Confidential Information
+"Confidential Information" means nonpublic business, technical and financial information disclosed in connection with the Purpose and identified as confidential, or reasonably understood to be confidential in the circumstances. It excludes information the receiving Party can demonstrate was already known without restriction, independently developed, rightfully received from a third party, or publicly available without breach.
+
+3. Protection and permitted disclosure
+Each receiving Party shall use reasonable care to protect Confidential Information, use it only for the Purpose, and disclose it only to personnel and professional advisers who need to know and are bound by duties of confidentiality. A Party compelled by law to disclose shall, to the extent permitted, give prompt notice and reasonably cooperate in seeking protective treatment.
+
+4. Term and renewal
+The initial term is one year from the Effective Date. This Agreement automatically renews for successive one-year terms unless either Party gives written notice of non-renewal at least 15 days before the end of the then-current term. Confidentiality obligations survive for three years after termination; trade secrets remain protected for as long as they qualify under applicable law.
+
+5. Return and retention
+Upon written request, each receiving Party shall return or destroy Confidential Information, except one archival copy retained by counsel and routine inaccessible backup copies, which remain subject to this Agreement. Neither Party obtains a license to the other Party's intellectual property.
+
+[Page 2]
+MUTUAL NONDISCLOSURE AGREEMENT — CONTINUED
+
+6. Allocation definitions
+For purposes of Section 7 only, "Indemnifying Party" means Northstar Analytics LLC, regardless of which Party disclosed or received the information at issue. "Protected Parties" means Cedar Ridge Systems Inc. and its directors, officers and employees. These defined terms control over any general reference to reciprocal cooperation elsewhere in this Agreement.
+
+7. Claims cooperation and protection
+The Parties will reasonably cooperate in responding to third-party claims relating to the Purpose. The Indemnifying Party shall defend, indemnify and hold harmless the Protected Parties from third-party claims, damages and reasonable expenses arising from any unauthorized disclosure of Confidential Information by the Indemnifying Party. No corresponding duty is imposed on a Protected Party by this Section.
+
+8. Limitation of liability
+Each Party's aggregate liability under this Agreement, including Section 7, shall not exceed the fees paid or payable by that Party to the other Party under the contemplated commercial relationship during the twelve months preceding the event giving rise to the claim. Neither Party is liable for indirect or consequential damages. No exception increases this aggregate monetary cap.
+
+9. Governing law and forum
+This Agreement is governed by the laws of the State of Texas, without regard to its conflict-of-laws principles. The Parties consent to the exclusive jurisdiction of the state and federal courts located in Travis County, Texas.
+
+10. General terms
+Notices must be delivered by email with acknowledgment of receipt or by nationally recognized overnight courier to the business contacts last designated in writing. Amendments require a writing signed by both Parties. This Agreement is the entire understanding concerning the Purpose and may be signed in counterparts and electronically.
+
+NORTHSTAR ANALYTICS LLC                    CEDAR RIDGE SYSTEMS INC.
+By: _______________________               By: _______________________
+Name and title: ____________              Name and title: ____________
+Date: _____________________               Date: _____________________
+
+Synthetic QA document. The parties and transaction are fictional.

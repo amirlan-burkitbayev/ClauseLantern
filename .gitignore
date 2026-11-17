@@ -1,0 +1,28 @@
+# Python environments and caches
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Local metadata and legacy activation state
+.vp_state.dat*
+audit_log.json*
+
+# Secrets
+*.pem
+*.key
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated reports, QA traces and offline package downloads
+*.docx
+.qa/
+*.log
+wheelhouse/
+archive/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
